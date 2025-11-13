@@ -1,0 +1,41 @@
+html, body { 
+    overflow: hidden; 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+}
+
+
+body {
+    background-color: darkgreen;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    background-color: #702963;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 10%;
+    
+    
+}
+
+img {
+    width: 80px;
+    height: 112px;   
+    margin: 10px;
+}
