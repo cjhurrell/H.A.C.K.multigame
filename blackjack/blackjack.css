@@ -1,8 +1,8 @@
-html, body { 
-    overflow: hidden; 
+html, body {    
     margin: 0; 
     padding: 0; 
     height: 100%; 
+    overflow: hidden;
 }
 
 
@@ -17,25 +17,33 @@ body {
 h1 {
     text-align: center;
     margin: 20px;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 h2 {
     text-align: center;
     margin: 10px;
+    font-size: 1em;
 }
 
 button {
     background-color: #702963;
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin: 10px 10px;
-    border-radius: 10%;
+    border-radius: 5%;
     
     
 }
 
+#back-button {
+    background-color: #555555;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    border-radius: 5%;
+}
+
 img {
-    width: 80px;
-    height: 112px;   
+    width: 60px;
+    height: 84px;   
     margin: 10px;
 }
