@@ -1,0 +1,75 @@
+body{
+    background-color: orange;
+}
+
+.game-info {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+select{
+    display: block;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightblue;
+
+    
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0px, 0px, 0px, 0px;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px; /* 3 cells * 100px + 2 * 3px margin */
+    height: 300px; /* 3 cells * 100px + 2 * 3px margin */
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.cell:hover {
+    background-color: lightblue;
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .cell {
+    width: 100px;
+    height: 100px;
+
+}
+
+.board {
+    
+    width: 300px; /* 3 cells * 100px + 2 * 3px margin */
+    height: 300px; /* 3 cells * 100px + 2 * 3px margin */
+}
+
+.cell:hover {
+    background-color: orange;
+    transform: scale(1);
+  }
+
+
+}
