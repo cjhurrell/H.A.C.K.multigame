@@ -1,0 +1,40 @@
+html, body {    
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+body {
+    background-color: #FAF9F6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+button {
+    background-color: #702963;
+    padding: 10px 15px;
+    margin: 15px 15px;
+    border-radius: 5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.options {
+    margin-top: 20vh;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #702963;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
